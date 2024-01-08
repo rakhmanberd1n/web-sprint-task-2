@@ -1,0 +1,548 @@
+header {
+    padding: 3px;   
+    display: flex; 
+    justify-content: space-between; 
+    background-color: #4C75A3;
+    align-items: center;
+    height: 65px;
+}
+
+.header-title {
+    padding-left: 105px;
+    color: #fff;
+    font-size: 35px;
+}
+
+.search-bar{
+    float: left;
+    margin-right: 780px;
+    border: none;
+    padding: 5px 10px 8px 30px;
+    height: 20px;
+    background: url(https://assets.stickpng.com/images/585e4ae1cb11b227491c3393.png) no-repeat 17px 10px;
+    background-size: auto 40%;
+    border-radius: 20px;
+    background-color: #1e4b78;
+}
+
+.search-bar input {
+    margin-left: 10px;
+    padding: 5px 10px 5px 1px;
+    width: 140px;
+    border: none;
+    background-color: #1e4b78;
+    outline:none;
+}
+
+.search-bar input::placeholder {
+    font-size: 15px;
+}
+
+.main {
+    display: flex;
+    grid-gap:20px; 
+    background-color: #d4dbe3;
+}
+
+.main-page-links {
+    padding-left: 70px;
+    margin-top: 12px;
+}
+
+.main-page-links ul {
+    list-style-type: none;
+    margin-right: 35px;
+}
+
+.main-page-links ul li{
+    padding-bottom: 13px;
+    color: #4C75A3;
+}
+
+.main-page-links-friends {
+    text-decoration: none;
+    color: #4C75A3;
+}
+
+.main-user-profile-photo-button {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.main-user-profile-photo-button ul {
+    list-style-type: none;
+}
+
+.main-user-profile-photo-button button {
+    margin: 10px -25px 15px;
+    width: 250px;
+    height: 30px;
+    border: none;
+    border-radius: 4px;
+    color: #4C75A3;
+}
+
+.main-user-profile-photo-button img {
+    margin: 15px 13px 0 -25px;
+    width: 250px;
+    height: 237px;
+}
+
+
+.main-profile-user-friends {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.main-profile-user-friends-title {
+    display: flex;
+    margin-left: 20px;
+}
+
+.main-profile-user-friends-title-text {
+    color:#4C75A3;
+}
+
+.main-profile-user-friends-title-number {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #a2b0be;
+}
+
+.main-profile-user-friends-photo-name {
+    display: flex; 
+    flex-wrap: wrap; 
+    width: 250px; 
+    margin: 0 auto;
+}
+
+.main-profile-user-friends-name {
+    text-align: center; 
+    width: 33%;
+}
+
+.main-profile-user-friends-name img{
+    width: 45px;
+    height: 40px;
+    border-radius: 90px; 
+    border: 0.1px solid #a9aaac; 
+}
+
+.main-profile-user-friends-name p {
+    margin-top: 1px;
+    font-size: 12px;
+}
+
+.main-user-page {
+    margin-top: 15px;
+}
+.main-user-desc {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.main-user-fullname {
+    display: flex;
+    justify-content: space-between;
+    margin-left: 15px;
+}
+
+.main-user-fullname-edit {
+    padding-top: 1px;
+    padding-bottom: -100px;
+    font-size: 18px;
+}
+
+.main-user-fullname-online {
+    padding-top: 1px;
+    padding-right: 15px;
+    color: #a2b0be;
+}
+
+.main-user-desc-full {
+    margin-top: -13px;
+    margin-left: 15px;
+}
+
+.main-user-page-line {
+    color: #dbdcdd;
+    width: 570px; 
+    margin-top: 20px;
+    margin-bottom: 20px;
+    border-width: 0.1px;
+    opacity: .2;
+}
+
+table {
+    margin-left: 15px;
+    border: 0 solid #000;
+    border-collapse: collapse;
+}
+
+th { 
+    text-align: left;
+    font-weight: normal;
+    color: #949ea8;
+}
+
+td {
+    padding-left: 40px;
+    padding-bottom: 3px;
+    color:#4C75A3;
+    border: 0 solid #000;
+    border-collapse: collapse;
+}
+
+.main-user-page-information {
+    display: flex; 
+    border: 0;
+    width: 600px; 
+    margin: 0 auto;
+    margin-left: 15px;
+}
+
+.main-user-page-count {
+    border: 0;
+    text-align: center;
+    padding-left: 12px;
+    align-content: center;
+    margin-left: 8px;
+    margin-top: -15px;
+}
+
+.main-user-page-information-number {
+    color: #4C75A3;
+}
+
+.main-user-page-information-name {
+    margin-top: -7px;
+    color: #a2b0be;
+}
+
+.main-user-page-photos {
+    margin-top: 15px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.main-user-page-photos-info {
+    display: flex;
+    margin-left: 15px;
+}
+
+.main-user-page-photos-text {
+    color: #4C75A3;
+}
+
+.main-user-page-photos-number {
+    margin-left: 10px;
+    font-size: 16px;
+    color: #a2b0be;
+}
+
+.main-user-page-photos-blog {
+    display: flex; 
+    width: 610px; 
+    margin: 0 auto;
+}
+
+.main-user-page-photos-blog-img {
+    display: flex;
+    justify-content: space-between;
+    align-items: top;
+    flex-wrap: nowrap;
+    box-sizing: border-box;
+    width: 700px;
+    height: auto;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-bottom: 15px;
+}
+
+.main-user-page-photos-blog-img img{
+    box-sizing: border-box;
+    width: 130px;
+    height: 130px;
+    margin: auto;
+    padding: 0;
+    border: none;
+}
+
+.main-user-page-post {
+    background-color: #fff;
+    border-radius: 10px;
+    margin-top: 15px;
+    overflow: hidden; 
+    width: 615px;
+}
+
+.main-user-page-post-img-name {
+    display: flex;
+}
+
+.main-user-page-post-img img{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 45px;
+    height: 40px;
+    border-radius: 90px; 
+    border: 0.1px solid #a9aaac; 
+}
+
+.main-user-page-post-name-date {
+    margin-left: 10px;
+    margin-top: -7px;
+}
+
+.main-user-page-post-name-date h4 {
+    font-size: 15px;
+    color: #4C75A3;
+}
+
+.main-user-page-post-name-date p {
+    margin-top: -15px;
+    color: #a2b0be;
+}
+
+.main-user-page-post-text {
+    text-align: left;
+    margin-left: 15px;
+    font-size: 16px;
+    margin-top: -5px;
+    padding-right: 20px;
+    line-height: 20px;
+}
+
+/*second page*/
+
+.main-page-links-my-page {
+    text-decoration: none;
+    color: #4C75A3;
+}
+
+.main-friends-page {
+    width: 550px;
+    height: 790px;
+    background-color: #fff;
+    margin-top: 25px;
+    border-radius: 10px;
+}
+
+.main-friends-page-title {
+    display: flex;
+    background-color: #f0f0f0;
+}
+
+.main-friends-page-title-all-friends {
+    color: #000;
+    margin-left: 20px;
+}
+
+.main-friends-page-title-all-number {
+    margin-left: 10px;
+    color: #949ea8;
+}
+
+.main-friends-page-title-online-friends {
+    color: #000;
+    margin-left: 20px;
+}
+
+.main-friends-page-title-online-number {
+    margin-left: 10px;
+    color: #949ea8;
+}
+
+.main-friends-page-title-button {
+    background-color: #4C75A3;
+    color: #fff;
+    width: 130px;
+    height: 30px;
+    margin-top: 10px;
+    margin-left: 125px;
+    margin-right: 10px;
+    border: none;
+}
+
+.main-friends-page-line-first {
+    color: #dbdcdd;
+    width: 550px; 
+    margin-top: 1px;
+    margin-bottom: 6px;
+    border-width: 0.1px;
+    opacity: .5;
+}
+
+.main-friends-page-search {
+    display: flex;
+}
+
+.main-friends-page-search img {
+    width: 13px;
+    height: 13px;
+    margin-left: 20px;
+    padding-bottom: 20px;
+    margin-top: 10px;
+    
+}
+
+.main-friends-page-search input {
+    padding-left: 10px;
+    margin-top: -5px;
+    font-size: 14px;
+    color: #949ea8;
+    border: none;
+    outline:none;
+
+}
+
+.main-friends-page-line-second {
+    color: #dbdcdd;
+    width: 550px; 
+    margin-top: -5px;
+    margin-bottom: 7px;
+    border-width: 0.1px;
+    opacity: .3;
+}
+
+.main-friends-page-line-third {
+    color: #dbdcdd;
+    width: 550px; 
+    margin-top: 2px;
+    margin-bottom: -5px;
+    border-width: 0.1px;
+    opacity: .3;
+} 
+
+.main-friends-page-friends-info {
+    display: flex;
+}
+
+.main-friends-page-friends-info-img img{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 55px;
+    height: 55px;
+    border-radius: 90px; 
+    border: 0.1px solid #a9aaac;
+}
+
+.main-friends-page-friends-info-text {
+    margin-left: 10px;
+    margin-top: -7px;
+}
+
+.main-friends-page-friends-info-text-name-dots {
+    display: flex;
+}
+
+.main-friends-page-friends-info-text-name {
+    color: #4C75A3;
+    font-size: 14px;
+    padding-top: 1px;
+}
+
+
+.main-friends-page-friends-info-text-dots:after {
+    content: '\2026';
+    font-size: 25px;
+    padding-left: 290px;
+    margin-top: -10px;
+    color: #8f5798;
+}
+
+.main-friends-page-friends-info-text-uni {
+    color: #949ea8;
+    margin-top: -15px;
+    font-size: 14px;
+}
+
+.main-friends-page-friends-info-text-message {
+    color: #4C75A3;
+    margin-top: -10px;
+    font-size: 14px;
+}
+
+.main-friends-possible-list{
+    background-color: #fff;
+    border-radius: 10px;
+    width: 320px;
+    margin-top: 10px;
+}
+
+.main-friends-possible-list li:first-child {
+    background-color: #eadbfb; 
+    font-weight: bold;
+}
+
+.main-friends-possible-list ul {
+    list-style-type: none;
+    margin-top:  25px;
+    margin-left: -40px;
+} 
+
+.main-friends-possible-list ul li{
+    padding-bottom: 13px;
+    padding-top: 14px;
+    padding-left: 20px;
+}
+
+.main-friends-possible-corner {
+    border: 6px solid transparent;
+    border-width: 10px 5px 0 5px;
+    border-style: solid;
+    border-color: rgb(181, 189, 181) transparent transparent transparent;
+    float: right;
+    margin: -25px 184px 5px 5px;
+}
+
+.main-friends-possible-all-title {
+    margin-top: 10px;
+    margin-left: 20px;
+    padding-top: 15px;
+    margin-bottom: 9px;
+}
+
+.main-friends-possible-all {
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.main-friends-possible-all-friends {
+    display: flex;
+    margin-bottom: -5px;
+}
+
+
+.main-friends-possible-all-friends-img img{
+    margin-top: 15px;
+    margin-left: 15px;
+    width: 48px;
+    height: 48px;
+    border-radius: 90px; 
+    border: 0.1px solid #a9aaac; 
+}
+
+.main-friends-possible-all-friends-text {
+    margin-left: 10px;
+    margin-top: -7px;
+    margin-bottom: 1px;
+}
+
+.main-friends-possible-all-friends-text-name {
+    color: #4C75A3;
+    font-size: 13px;
+    padding-top: 1px;
+}
+
+.main-friends-possible-all-friends-text-common {
+    color: #949ea8;
+    margin-top: -13px;
+    font-size: 13px;
+}
+
+.main-friends-possible-all-friends-text-add {
+    color: #4C75A3;
+    margin-top: -8px;
+    font-size: 13px;
+}
